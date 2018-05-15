@@ -1,4 +1,4 @@
-<xsd:schema xmlns="http://www.github.com/djsteinke/rn5-headunit/v2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.garmin.com/xmlschemas/ActivityExtension/v2" elementFormDefault="qualified">
+<xsd:schema xmlns="https://raw.githubusercontent.com/djsteinke/rn5-headunit-schema/master/rn5extension" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://raw.githubusercontent.com/djsteinke/rn5-headunit-schema/master/rn5extension" elementFormDefault="qualified">
 <xsd:element name="RN5" type="Extension_t"/>
 <xsd:complexType name="Extension_t">
 <xsd:sequence>
