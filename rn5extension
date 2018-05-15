@@ -1,0 +1,13 @@
+<xsd:schema xmlns="http://www.github.com/djsteinke/rn5-headunit/v2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.garmin.com/xmlschemas/ActivityExtension/v2" elementFormDefault="qualified">
+<xsd:element name="RN5" type="Extension_t"/>
+<xsd:complexType name="Extension_t">
+<xsd:sequence>
+<xsd:element name="PowerBalanceL" type="xsd:unsignedShort" minOccurs="0"/>
+<xsd:element name="PowerBalanceR" type="xsd:unsignedShort" minOccurs="0"/>
+<xsd:element name="PowerTorqueL" type="xsd:unsignedShort" minOccurs="0"/>
+<xsd:element name="PowerTorqueR" type="xsd:unsignedShort" minOccurs="0"/>
+<xsd:element name="PedalSmoothL" type="xsd:unsignedShort" minOccurs="0"/>
+<xsd:element name="PedalSmoothR" type="xsd:unsignedShort" minOccurs="0"/>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:schema>
